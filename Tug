@@ -180,3 +180,26 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+local Section = Tab:AddSection({
+	Name = "Section"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddButton({
+	Name = "BladeBall",
+	Callback = function()
+      		loadstring(game:HttpGet("https://freenote.biz/raw/yjW07IZMtw",true))()
+ 
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
